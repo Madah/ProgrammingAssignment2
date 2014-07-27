@@ -31,8 +31,8 @@ makeCacheMatrix <- function(x = matrix()) {
     getinv <- function() inv
 
     list(set = set, get = get,
-         setmean = setmean,
-         getmean = getmean)
+         setinv = setinv,
+         getinv = getinv)
 
 }
 
@@ -64,3 +64,6 @@ cacheSolve <- function(x, ...) {
     x$setinv(inv) #'caches' the value of the inverse
     inv
 }
+
+
+
