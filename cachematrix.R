@@ -60,7 +60,7 @@ cacheSolve <- function(x, ...) {
     data <- x$get()
     #if the matrix is a square invertible matrix
     # the inverse matrix is returned
-    inv <- solve(data) 
+    inv <- solve(data, ...) 
     x$setinv(inv) #'caches' the value of the inverse
     inv
 }
