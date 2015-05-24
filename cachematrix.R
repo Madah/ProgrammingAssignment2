@@ -2,9 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
-## Updated 1.0 on 26/10/2014
-## Updated 1.1 on 23/11/2014
-## Updated 1.2 on 19/12/2014
+## 2015 will be THE year
 
 
 ## "makeCacheMatrix" is a function that creates a 'special matrix' and
