@@ -2,7 +2,8 @@
 ## functions do
 
 ## Write a short comment describing this function
-## 2015 will be THE year
+## July 2015
+
 
 
 ## "makeCacheMatrix" is a function that creates a 'special matrix' and
@@ -13,6 +14,7 @@
 ##     get: returns and shows the matrix created
 ##     setinv: sets (caches) the inverse of the matrix
 ##     getinv: returns and shows the inverse of the matrix
+
 
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL     #inverse of a matrix
